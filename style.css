@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #202124;
+  color: #bdc1c6;
+}
+
+header {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+#container-inputs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 60px;
+  margin: 4px;
+  padding: 4px;
+}
+
+input, button, select {
+  margin: 7px;
+  width: 10rem;
+}
+
+main {
+  display: block;
+  overflow: hidden;
+}
+
+#Konva-container{
+  width: auto;
+  height: 400px;
+  margin: 30px;
+  padding: 35px;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+}

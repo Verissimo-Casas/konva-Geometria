@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Konva Geometria</title>
+</head>
+
+<body>
+  <header>
+    <h1>Playground da Geometria</h1>
+    <div id="container-inputs">
+
+      <div class="input-item">
+        <label for="coordenada X1">X1: </label>
+        <input type="number" class="X1" value="0">
+      </div>
+
+      <div class="input-item">
+        <label for="coordenada Y1">Y1: </label>
+        <input type="number" class="Y1" value="0">
+      </div>
+
+      <div class="input-item">
+        <label for="coordenada X2">X2: </label>
+        <input type="number" class="X2" value="0">
+      </div>
+
+      <div class="input-item">
+        <label for="coordenada Y2">Y2: </label>
+        <input type="number" class="Y2" value="0">
+      </div>
+
+      <div class="input-item">
+        <label for="coordenada X3">X3: </label>
+        <input type="number" class="X3" value="0">
+      </div>
+
+      <div class="input-item">
+        <label for="coordenada Y3">Y3: </label>
+        <input type="number" class="Y3" value="0">
+      </div>
+
+      <div class="input-item">
+        <input type="button" class="close-open" value="Fecha Figura">
+      </div>
+
+      <div class="input-item">
+        <input type="button" class="on-off" value="Move Figura">
+      </div>
+
+      <div class="input-item">
+        <label for="geometrical-shapes">Formas geometrica: </label>
+        <select id="geometrical-shapes">
+          <option>Quadrado</option>
+          <option>Circulo</option>
+          <option>Elipse</option>
+          <option>Poligono</option>
+        </select>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <div id="Konva-container"></div>
+  </main>
+
+  <script src="https://unpkg.com/konva@8.3.5/konva.min.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
